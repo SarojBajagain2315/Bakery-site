@@ -1,0 +1,90 @@
+*{
+    margin: 5px;
+    padding: 0px;
+    box-sizing: border-box;  
+    
+}
+
+.heading .head1 img{
+    padding-bottom: 50px;
+}
+.heading .head3 img{
+    padding-bottom: 50px;
+}
+
+main{
+    /* background-color: lightblue; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+
+    /* background-image: url(https://thumbs.dreamstime.com/b/italian-bakery-28379528.jpg); */
+    /* background-repeat: no-repeat; */
+    filter: brightness(0.7);
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    border-radius: 100px;
+    height: 350px;
+    overflow: hidden;
+}
+
+main .left-head{
+    width: 40%;
+}
+main .left-head img{
+    height: 300px;
+}
+main .right-head img{
+    height: 250px;
+    /* transform: scale(1.4);
+    transition: all 5s; */
+}
+main .left-head h1{
+    font-size: 60px;
+    font-family: Monospace;
+}
+main .left-head h3{
+    font-size: 30px;
+    font-family: Monospace;    
+}
+main .left-head h3:hover{
+    color: rgb(116, 49, 83);
+    font-weight: bold;
+}
+
+
+main .left-head h1:hover{
+    color: rgb(223, 98, 160);
+
+}
+div {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+div img{
+    border-radius: 30px;
+    height: 200px;
+}
+div img:hover{
+    content: url('https://lh3.googleusercontent.com/p/AF1QipOlFmzvh3y3JI1t1PPv0JdqqBimex3clIG67jZC=w768-h768-n-o-v1');
+    
+}
+div img .cake2:hover{
+    content: url('https://lh3.googleusercontent.com/p/AF1QipOlFmzvh3y3JI1t1PPv0JdqqBimex3clIG67jZC=w768-h768-n-o-v1');    
+}
+
+
+.rectanglebox{
+    /* background-color: gray; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+   
+    height: 300px;
+    width: 100%;
+
+}
+
+body{
+    background-color: lightgray;
+}
+
